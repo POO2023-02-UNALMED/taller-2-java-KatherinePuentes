@@ -7,13 +7,15 @@ public class Auto {
     String marca;
     Motor motor;
     int registro;
-    int cantidadCreados;
+    static int cantidadCreados;
 
     int cantidadAsientos(){
+        return 0;
 
     }
 
     String verificarIntegridad(){
-        
+        return "";
+
     }
 }
