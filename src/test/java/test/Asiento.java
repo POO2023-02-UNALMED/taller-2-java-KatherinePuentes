@@ -1,6 +1,10 @@
 package test;
 public class Asiento {
-    public static void main(String[] args){
-        System.out.println("Hola");
+    String color;
+    int precio;
+    int registro;
+
+    void cambiarColor(String color){
+        
     }
 }
