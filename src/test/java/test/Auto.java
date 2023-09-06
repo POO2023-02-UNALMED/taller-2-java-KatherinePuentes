@@ -13,7 +13,7 @@ public class Auto {
         int cantidad=0;
         for (Asiento asiento :asientos){
             if (asiento!=null){
-                cantidad++
+                cantidad++;
             }
         }
         return cantidad;
