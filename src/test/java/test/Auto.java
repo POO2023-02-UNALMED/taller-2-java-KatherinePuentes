@@ -9,7 +9,7 @@ public class Auto {
     int registro;
     static int cantidadCreados;
 
-    int cantidadAsientos(){
+    public int cantidadAsientos(){
         int cantidad=0;
         for (Asiento asiento :asientos){
             if (asiento!=null){
@@ -19,14 +19,14 @@ public class Auto {
         return cantidad;
     }
 
-    String verificarIntegridad(){
+    public String verificarIntegridad(){
         if (original()) {
             return "Auto original";
         }
         return "Las piezas no son originales";
     }
 
-    boolean original() {
+    public boolean original() {
         if (motor.registro != registro) {
             return false;
         }
