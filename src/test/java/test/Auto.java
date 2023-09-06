@@ -10,12 +10,24 @@ public class Auto {
     static int cantidadCreados;
 
     int cantidadAsientos(){
-        return 0;
-
+        int cantidad=0;
+        for (Asiento asiento :asientos){
+            if (asiento!=null){
+                cantidad++
+            }
+        }
+        return cantidad;
     }
 
     String verificarIntegridad(){
-        return "";
+        for (Asiento asiento:asientos);{
+            if (asiento==null && asiento.registro==registro && motor.registro==registro){
+                return "Auto original"
+            }
+            else{
+                return "Las piezas no son originales"
+            }
+        }
 
     }
 }
