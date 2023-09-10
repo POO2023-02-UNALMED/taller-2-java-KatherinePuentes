@@ -32,7 +32,7 @@ public class Auto {
         }
 
         for (Asiento asiento : asientos){
-            if (asiento != && asiento.registro!=registro){
+            if (asiento != null && asiento.registro!=registro){
                 return false;
             }
         }
