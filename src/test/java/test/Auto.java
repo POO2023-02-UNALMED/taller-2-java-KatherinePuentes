@@ -21,9 +21,9 @@ public class Auto {
 
     public String verificarIntegridad(){
         if (esIntegro()){
-            return "Auto original"
+            return "Auto original";
         }
-        return "Las piezas no son originales"
+        return "Las piezas no son originales";
     }
 
     public boolean esIntegro(){
